@@ -1,0 +1,272 @@
+
+/******************
+Resource notes - 
+new
+deep purple - #363062
+dusty deep purple - #4d4c7d
+purpled pink- #827397
+dusty pink - #d8b9c3
+*******************/
+
+/****
+Font information
+****/
+
+@font-face {
+    font-family: 'LemonTuesday';
+    src: url('https://files.jcink.net/uploads/pinkskies/lemon_tuesday_webfont.eot');
+    src: url('https://files.jcink.net/uploads/pinkskies/lemon_tuesday_webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://files.jcink.net/uploads/pinkskies/lemon_tuesday_webfont.woff2') format('woff2'),
+         url('https://files.jcink.net/uploads/pinkskies/lemon_tuesday_webfont.woff') format('woff'),
+         url('https://files.jcink.net/uploads/pinkskies/lemon_tuesday_webfont.ttf') format('truetype'),
+         url('https://files.jcink.net/uploads/pinkskies/lemon_tuesday_webfont.svg') format('svg');
+    font-weight: bold;
+    font-style: normal; }
+
+/****
+Base Attributes
+****/
+
+body{
+    background: #363036; /* Old browsers */
+    background: -moz-linear-gradient(top,  #363062 0%, #827397 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #363062 0%,#827397 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #363036 0%,#827397  100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#363036', endColorstr='#827397',GradientType=0 ); /* IE6-9 */
+    background-attachment: fixed;
+    font-family: 'RocknRoll One', sans-serif;
+    color: #D8B9C3
+}
+
+
+
+/****
+Link Behavior
+****/
+
+a:link, a:visited, a:active{
+    color: #D8B9C3;
+}
+
+a:hover { 
+	color: #D3E0EA; 
+	text-decoration: none; 
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+
+/****
+Header
+****/
+
+nav{
+    height: 33px;
+    width: 98%;
+    border: 2px solid #D3E0EA ;
+    /* position: fixed; */
+    top: 5px;
+    left: 5px;
+    display: inline;
+    background-color: #363062;
+    border-radius: 20px;
+    z-index: 3;
+    font-size: 20px;
+    color: #f6f5f5;
+    margin-right: 10px;
+    float: right;
+    margin-top: 3px;
+}
+
+nav a{
+    padding: 5px;
+    margin-left: 15%;
+}
+
+/****
+Image Break
+****/
+
+.break{
+  background-image: url("./images/pencils.png");
+  display: block;
+  width: 100%;
+  height: 400px;
+  border-radius: 5px;
+}
+
+.photo img{
+    position: absolute;
+    top: 200px;
+    left: 25px;
+    border-radius: 50%;
+    height:200px;
+    width: 200px;
+    border: 1px solid #363062;
+}
+
+.name{
+    position: absolute;
+    top: 55px;
+    right: 75px;
+    font-family: 'Lemon Tuesday';
+    color:#363062;
+    font-size: 55px;
+}
+
+.spacer{
+    height: 50px;
+    /* border: 2px solid white; */
+}
+
+.minispacer{
+    height: 25px;
+    /* border: 2px solid white; */
+}
+
+/****
+Content
+****/
+
+.container{
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* border: 1px solid red; */
+    justify-content: center;
+}
+
+
+
+#examples p{
+    visibility: hidden;
+    font-size: 20px;
+
+}
+
+.alignment{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* border: 2px solid red; */
+}
+
+
+.title{
+    font-size: 45px;
+    margin-left: 10px;
+}
+
+.about{
+    width: 75%;
+    padding: 20px;
+    /* border:2px solid #363062; */
+    border-radius: 20px;
+    margin: 2px; 
+    background-color: #827397;
+    color: #000;
+
+}
+
+.about p{
+    padding: 3px;
+}
+
+.about h2{
+    font-size: 45px;
+}
+
+/****
+Work Examples
+****/
+
+.feature{
+    padding: 5px;
+    /* background-color: #4d4c7d; */
+    position: relative;
+    display: inline-block;
+    /* border: 2px solid #D8B9C3; */
+    border-radius: 20px;
+    margin: 3px;
+    margin-right: 10%; 
+    z-index: -1;
+}
+
+.feature img{
+    height:500px;
+    width: 90%;
+    border-radius: 20px;
+    /* background-size: cover; */
+    z-index: 1;
+}
+
+.project{
+    background-color: #D8B9C3;
+    position: relative;
+    width: 90%;
+    text-align: center;
+    padding: 15px;
+    color: #363062;
+    display: absolute;
+    margin-top: -60px;
+    z-index: 999;
+    border-radius: 5px;
+}
+
+.work{
+    padding: 5px;
+    /* background-color: #4d4c7d; */
+    position: relative;
+    display: inline-block;
+    /* border: 2px solid #4d4c7d; */
+    border-radius: 20px;
+    margin: 2px;
+}
+
+.work img{
+    height: 200px;
+    width: 90%;
+    border-radius: 20px;
+    /* background-size: cover; */
+}
+
+/****
+Footer
+****/
+
+footer{
+    height: 33px;
+    text-align: center;
+    background-color: #363062;
+    opacity: 0.5;
+}
+
+footer p{
+    font-size: 10px;
+    padding: 3px;
+}
+
+/****
+Cards
+****/
+.cardcontainer{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.card{
+    height: 400px;
+    width: 300px;
+    /* margin-top: 10%;
+    margin-left: 15%; */
+    border: 1px solid #fff;
+}
+
+.cardheader{
+    height: 50px;
+    border: 1px solid red;
+
+}
