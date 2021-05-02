@@ -1,11 +1,17 @@
 import React from 'react';
+import selfie from '../images/selfie.jpg'
 
 
 function Header() {
     return (
-        <header>
-            <h1> Testing </h1>
-        </header>
+        <div class="break">
+            <div class="photo">
+                <img src={selfie} alt="self" />
+            </div>
+            <div class="name">
+                Kim Hage
+            </div>
+        </div>
     )
 }
 

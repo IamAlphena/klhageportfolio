@@ -132,7 +132,7 @@ Content
 
     position: relative;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     /* flex-wrap: wrap; */
     /* border: 1px solid red; */
     justify-content: center;
@@ -252,21 +252,6 @@ footer p{
 /****
 Cards
 ****/
-.cardcontainer{
-    display: flex;
-    /* flex-wrap: wrap; */
-}
-
-.card{
-    height: 400px;
-    width: 300px;
-    /* margin-top: 10%;
-    margin-left: 15%; */
-    border: 1px solid #fff;
-}
-
-.cardheader{
-    height: 50px;
-    border: 1px solid red;
-
+.info{
+    margin: 10px;
 }
