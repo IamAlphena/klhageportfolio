@@ -242,6 +242,11 @@ footer{
     text-align: center;
     background-color: #363062;
     opacity: 0.5;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
 }
 
 footer p{

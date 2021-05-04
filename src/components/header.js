@@ -4,11 +4,11 @@ import selfie from '../images/selfie.jpg'
 
 function Header() {
     return (
-        <div class="break">
-            <div class="photo">
+        <div className="break">
+            <div className="photo">
                 <img src={selfie} alt="self" />
             </div>
-            <div class="name">
+            <div className="name">
                 Kim Hage
             </div>
         </div>
