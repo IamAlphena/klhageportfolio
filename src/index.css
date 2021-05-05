@@ -133,7 +133,7 @@ Content
     position: relative;
     display: flex;
     /* flex-direction: column; */
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     /* border: 1px solid red; */
     justify-content: center;
 }
@@ -224,6 +224,9 @@ Work Examples
     /* border: 2px solid #4d4c7d; */
     border-radius: 20px;
     margin: 2px;
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
 }
 
 .work img{
@@ -242,11 +245,12 @@ footer{
     text-align: center;
     background-color: #363062;
     opacity: 0.5;
-    position: absolute;
+    position: fixed;
     left: 0;
     bottom: 0;
     right: 0;
     width: 100%;
+    color: #D8B9C3;
 }
 
 footer p{
@@ -263,6 +267,12 @@ Cards
     width: 18rem;
 }
 
-.container {
+/* .container {
     margin: 10px;
+} */
+
+.item {
+    font-size: 12px;
+    /* color: red; */
+    background-color: #363062;
 }

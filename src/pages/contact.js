@@ -1,10 +1,24 @@
 import React from 'react';
 import ContactCard from "../components/Cards/contactcard";
+import contact from '../contact.json'
 
-function Contact(){
+class Contact extends React.Component {
+
+    state = {
+        contact
+    };
+
+  render () {
     return(
-        <ContactCard />
-    )
+        <>
+        {this.state.contact.map(info =>(
+            <ContactCard
+            key={info.id}
+            format={info.format}
+            details={info.details} />
+        ))}
+        </>
+    )}
 }
 
 export default Contact;

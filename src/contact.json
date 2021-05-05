@@ -1,0 +1,13 @@
+[
+    {
+        "id": 1,
+        "format": "Email",
+        "details": "kimberly.hage@gmail.com"
+    },
+    {
+        "id": 2,
+        "format": "GitHub",
+        "details": "https://www.github.com/IamAlphena"
+    }
+
+]

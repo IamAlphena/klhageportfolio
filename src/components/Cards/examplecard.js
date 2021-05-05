@@ -1,13 +1,24 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import Quiz from '../../images/quiz1.png';
 
-function ExampleCard(){
+
+function ExampleCard(props){
     return(
-        <Card style={{width: '18rem'}}>
-            <Card.Img variant="top" src={Quiz} alt="Quiz Preview" />
-            <Card.Title>Coding Quiz</Card.Title>
-        </Card>
+       <>
+            <Card 
+            className='bg-dark text-white'
+            style={{width: '18rem', margin: '1rem'}}
+            >
+                <Card.Img src={props.image} alt={props.alttext} className="work"  />
+                <Card.ImgOverlay >
+                    <Card.Title>{props.project}</Card.Title>
+                    <Card.Text>{props.details}</Card.Text>
+                    <Card.Text><a href={props.deploy} target="__blank">Link to Deployed Application</a></Card.Text>
+                <Card.Text><a href={props.repo} target="__blank">Link to Repo</a></Card.Text>
+                </Card.ImgOverlay>
+                
+            </Card>
+       </>
     )
 }
 

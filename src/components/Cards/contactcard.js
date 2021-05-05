@@ -2,14 +2,14 @@ import React from 'react';
 import { ListGroup } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card'
 
-function ContactCard(){
+function ContactCard(props){
     return (
-        <Card style={{width: '18rem'}}>
-            <Card.Header>Email</Card.Header>
+        <Card.Body className="about">
+            <Card.Header>{props.format}</Card.Header>
             <ListGroup variant="flush">
-                <ListGroup.Item>kimberly.hage@gmail.com</ListGroup.Item>
+                <ListGroup.Item>{props.details}</ListGroup.Item>
             </ListGroup>
-        </Card>
+        </Card.Body>
     )
 }
 
