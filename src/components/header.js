@@ -9,7 +9,7 @@ function Header() {
                 <img src={selfie} alt="self" />
             </div>
             <div className="name">
-                {/* Kim Hage */}
+                Kim Hage
             </div>
         </div>
     )
