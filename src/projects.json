@@ -4,53 +4,53 @@
         "project": "Coding Quiz",
         "image": "https://cdn.discordapp.com/attachments/839393191882653707/839393278867800134/quiz1.png",
         "alttext":"Coding Quiz" ,
-        "details":"                                   " ,
+        "details":" " ,
         "deploy": "https://iamalphena.github.io/quizgame/index.html",
         "repo": "https://github.com/IamAlphena/quizgame"
     },
     {
         "id": 2,
-        "project": "",
-        "image": "",
-        "alttext":"" ,
-        "details":"" ,
-        "deploy": "",
-        "repo": ""
+        "project": "Day Planner",
+        "image": "https://cdn.discordapp.com/attachments/839393191882653707/839399285333688320/planner.png",
+        "alttext":"Day Planner" ,
+        "details":"  " ,
+        "deploy": "https://iamalphena.github.io/dayplanner/index.html",
+        "repo": "https://github.com/IamAlphena/dayplanner"
     },
     {
         "id": 3,
-        "project": "",
-        "image": "",
-        "alttext":"" ,
+        "project": "Weather Dashboard",
+        "image": "https://cdn.discordapp.com/attachments/839393191882653707/839399940849401866/unknown.png",
+        "alttext":"Weather Dashboard" ,
         "details":"" ,
-        "deploy": "",
-        "repo": ""
+        "deploy": "https://iamalphena.github.io/meteorologist/index.html",
+        "repo": "https://github.com/IamAlphena/meteorologist"
     },
     {
         "id": 4,
-        "project": "",
-        "image": "",
-        "alttext":"" ,
-        "details":"" ,
-        "deploy": "",
-        "repo": ""
+        "project": "White Blueberries",
+        "image": "https://cdn.discordapp.com/attachments/818902079228739636/820113487530295327/unknown.png",
+        "alttext":"White Blueberries Site" ,
+        "details":"Recipe Finding Website" ,
+        "deploy": "https://iamalphena.github.io/whiteblueberries/index.html",
+        "repo": "https://github.com/IamAlphena/whiteblueberries"
     },
     {
         "id": 5,
-        "project": "",
-        "image": "",
-        "alttext":"" ,
+        "project": "Team Profiles Generator",
+        "image": "https://cdn.discordapp.com/attachments/839393191882653707/839401371568439346/unknown.png",
+        "alttext":"Generated Team Profile" ,
         "details":"" ,
-        "deploy": "",
-        "repo": ""
+        "deploy": "https://github.com/IamAlphena/TeamProfiles",
+        "repo": "https://github.com/IamAlphena/TeamProfiles"
     },
     {
         "id": 6,
-        "project": "",
-        "image": "",
-        "alttext":"" ,
+        "project": "Employee Database",
+        "image": "https://cdn.discordapp.com/attachments/839393191882653707/839401826948218880/unknown.png",
+        "alttext":"Employee Database" ,
         "details":"" ,
-        "deploy": "",
-        "repo": ""
+        "deploy": "https://employeedatabasehana.herokuapp.com/",
+        "repo": "https://github.com/IamAlphena/employee-directory"
     }
 ]
