@@ -1,12 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
     return (
         <>
             <nav>
-                <a href="/About">About Me</a>
-                <a href="/Contact">Contact Me</a>
-                <a href="/Examples">Previous work</a>
+                <Link to="/About">About Me</Link>
+                <Link to="/Contact">Contact Me</Link>
+                <Link to="/Examples">Previous work</Link>
             </nav>
             <div className="spacer"></div>
         </>
