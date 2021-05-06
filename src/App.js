@@ -1,8 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import './App.css';
+
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 import About from "./pages/about";
 import Contact from './pages/contact';
 import Examples from './pages/examples';
