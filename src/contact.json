@@ -8,6 +8,15 @@
         "id": 2,
         "format": "GitHub",
         "details": "https://www.github.com/IamAlphena"
+    },
+    {
+        "id": 3,
+        "format": "LinkedIn",
+        "details": "https://www.linkedin.com/in/kimberlyhage/"
+    },
+    {
+        "id": 4,
+        "format":"Resume",
+        "details": "https://iamalphena.github.io/khportfolio/assets/Other/Kim-Admin.pdf"
     }
-
 ]
