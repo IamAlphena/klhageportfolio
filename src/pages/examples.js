@@ -21,6 +21,7 @@ class Examples extends React.Component {
             details={info.details}
             deploy={info.deploy}
             repo={info.repo}
+            tech={info.tech}
              />
         ))}
         </div>

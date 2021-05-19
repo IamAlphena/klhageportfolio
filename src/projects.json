@@ -4,53 +4,59 @@
         "project": "Coding Quiz",
         "image": "https://cdn.discordapp.com/attachments/839393191882653707/839393278867800134/quiz1.png",
         "alttext":"Coding Quiz" ,
-        "details":" " ,
+        "details":"Take a quick coding quiz to test knowledge of HTML, CSS, and JavaScript and save your high scores" ,
         "deploy": "https://iamalphena.github.io/quizgame/index.html",
-        "repo": "https://github.com/IamAlphena/quizgame"
+        "repo": "https://github.com/IamAlphena/quizgame",
+        "tech": "HTML, CSS, JavaScript"
     },
     {
         "id": 2,
         "project": "Day Planner",
         "image": "https://cdn.discordapp.com/attachments/839393191882653707/839399285333688320/planner.png",
         "alttext":"Day Planner" ,
-        "details":"  " ,
+        "details":"Planner app that saves shcheduled hourly events to local storage to help keep track of the day, and what is still ahead" ,
         "deploy": "https://iamalphena.github.io/dayplanner/index.html",
-        "repo": "https://github.com/IamAlphena/dayplanner"
+        "repo": "https://github.com/IamAlphena/dayplanner",
+        "tech": "HTML, CSS, JavaScript, jQuery"
     },
     {
         "id": 3,
         "project": "Weather Dashboard",
         "image": "https://cdn.discordapp.com/attachments/839393191882653707/839399940849401866/unknown.png",
         "alttext":"Weather Dashboard" ,
-        "details":"" ,
+        "details":"A dashboard to search for weather information by City and easily navigate to recent searches" ,
         "deploy": "https://iamalphena.github.io/meteorologist/index.html",
-        "repo": "https://github.com/IamAlphena/meteorologist"
+        "repo": "https://github.com/IamAlphena/meteorologist",
+        "tech": "HTML, CSS, JavaScript"
     },
     {
         "id": 4,
         "project": "White Blueberries",
         "image": "https://cdn.discordapp.com/attachments/818902079228739636/820113487530295327/unknown.png",
         "alttext":"White Blueberries Site" ,
-        "details":"Recipe Finding Website" ,
+        "details":"Recipe Finding Website that searches suggestions based on a single ingredient - either drink or food. And can save favorite results to local storage" ,
         "deploy": "https://iamalphena.github.io/whiteblueberries/index.html",
-        "repo": "https://github.com/IamAlphena/whiteblueberries"
+        "repo": "https://github.com/IamAlphena/whiteblueberries",
+        "tech" : "HTML, CSS, JavaScript, jQuery"
     },
     {
         "id": 5,
         "project": "Team Profiles Generator",
         "image": "https://cdn.discordapp.com/attachments/839393191882653707/839401371568439346/unknown.png",
         "alttext":"Generated Team Profile" ,
-        "details":"" ,
+        "details":"Enter in information about each team member, and have a page auto generated with their information! " ,
         "deploy": "https://github.com/IamAlphena/TeamProfiles",
-        "repo": "https://github.com/IamAlphena/TeamProfiles"
+        "repo": "https://github.com/IamAlphena/TeamProfiles",
+        "tech": "HTML, CSS, JavaScript, jQuery, NodeJs"
     },
     {
         "id": 6,
         "project": "Employee Database",
         "image": "https://cdn.discordapp.com/attachments/839393191882653707/839401826948218880/unknown.png",
         "alttext":"Employee Database" ,
-        "details":"" ,
+        "details":"Generated database that allows user to search and sort data" ,
         "deploy": "https://employeedatabasehana.herokuapp.com/",
-        "repo": "https://github.com/IamAlphena/employee-directory"
+        "repo": "https://github.com/IamAlphena/employee-directory",
+        "tech": "React, JavaScript, CSS, HTML"
     }
 ]

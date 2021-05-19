@@ -5,8 +5,8 @@ import Card from 'react-bootstrap/Card';
 function ListCard(){
    return( 
    <Card.Body className="about">
-    <Card.Header>Proficent With</Card.Header>
-    <ListGroup variant="flush">
+    <Card.Title>Proficent With</Card.Title>
+        <ListGroup variant="flush">
         <ListGroup.Item className="item">HTML</ListGroup.Item>
         <ListGroup.Item className="item"> CSS</ListGroup.Item>
         <ListGroup.Item className="item"> JavaScript</ListGroup.Item>

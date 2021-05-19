@@ -1,5 +1,6 @@
 import React from 'react';
 import AboutCard from '../components/Cards/aboutcard'
+import BioCard from '../components/Cards/biocard';
 import ListCard from '../components/Cards/listcard'
 
 function About(){
@@ -7,6 +8,7 @@ function About(){
         <>
         <AboutCard />
         <ListCard />
+        <BioCard />
         </>
     )
 }
