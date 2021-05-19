@@ -1,17 +1,16 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card'
 
-function ContactCard(props){
+function EmailCard(){
     return (
         <Card.Body className="about">
-            <Card.Header>{props.format}</Card.Header>
+            <Card.Header>Email</Card.Header>
             <Card.Text>
-            <a href={props.details}> Link </a>
+            <a href="mailto:kimberly.hage@gmail.com"> kimberly.hage@gmail.com </a>
             </Card.Text>
           
         </Card.Body>
     )
 }
 
-export default ContactCard;
-
+export default EmailCard;
