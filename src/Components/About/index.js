@@ -18,8 +18,8 @@ function About() {
       alt="First slide"
     />    
     <Carousel.Caption>
-      <h3 className="darken">Front End Developer</h3>
-      <p className="darken">I enjoy taking a new idea and giving it life on screen. </p>
+      <h3 className="darken">Full Stack Developer</h3>
+      <p className="darken">I enjoy taking a new idea and giving it life on screen, as well as crafting code that is easy to maintain and update. </p>
     </Carousel.Caption>
 
   </Carousel.Item>
@@ -31,7 +31,7 @@ function About() {
     />
     <Carousel.Caption>
       <h3 className="darken">Proficent With</h3>
-      <p className="darken">HTML, CSS, Sass, Javascript, React</p>
+      <p className="darken">HTML, CSS, Javascript, NodeJS, React, MySQL, NoSQL </p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -41,8 +41,8 @@ function About() {
       alt="Third slide"
     />
     <Carousel.Caption>
-      <h3 className="darken">Third slide label</h3>
-      <p className="darken">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <h3 className="darken">Inspired by</h3>
+      <p className="darken">New Challenges, new puzzles, and new ideas. All puzzles have a solution, and finding it constantly drives me.</p>
     </Carousel.Caption>
   </Carousel.Item>
 
