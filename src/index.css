@@ -13,29 +13,29 @@ Font information
 ****/
 
 @font-face {
-    font-family: 'LemonTuesday';
-    src: url('https://files.jcink.net/uploads/pinkskies/lemon_tuesday_webfont.eot');
-    src: url('https://files.jcink.net/uploads/pinkskies/lemon_tuesday_webfont.eot?#iefix') format('embedded-opentype'),
-         url('https://files.jcink.net/uploads/pinkskies/lemon_tuesday_webfont.woff2') format('woff2'),
-         url('https://files.jcink.net/uploads/pinkskies/lemon_tuesday_webfont.woff') format('woff'),
-         url('https://files.jcink.net/uploads/pinkskies/lemon_tuesday_webfont.ttf') format('truetype'),
-         url('https://files.jcink.net/uploads/pinkskies/lemon_tuesday_webfont.svg') format('svg');
-    font-weight: bold;
-    font-style: normal; }
+  font-family: 'LemonTuesday';
+  src: url('https://files.jcink.net/uploads/pinkskies/lemon_tuesday_webfont.eot');
+  src: url('https://files.jcink.net/uploads/pinkskies/lemon_tuesday_webfont.eot?#iefix') format('embedded-opentype'),
+       url('https://files.jcink.net/uploads/pinkskies/lemon_tuesday_webfont.woff2') format('woff2'),
+       url('https://files.jcink.net/uploads/pinkskies/lemon_tuesday_webfont.woff') format('woff'),
+       url('https://files.jcink.net/uploads/pinkskies/lemon_tuesday_webfont.ttf') format('truetype'),
+       url('https://files.jcink.net/uploads/pinkskies/lemon_tuesday_webfont.svg') format('svg');
+  font-weight: bold;
+  font-style: normal; }
 
 /****
 Base Attributes
 ****/
 
 body{
-    background: #363036; /* Old browsers */
-    background: -moz-linear-gradient(top,  #363062 0%, #827397 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  #363062 0%,#827397 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  #363036 0%,#827397  100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#363036', endColorstr='#827397',GradientType=0 ); /* IE6-9 */
-    background-attachment: fixed;
-    font-family: 'RocknRoll One', sans-serif;
-    color: #D8B9C3
+  background: #151515; /* Old browsers */
+  background: -moz-linear-gradient(top,  #151515 0%, #301b3f 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #151515 0%,#301b3f 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #151515 0%,#301b3f  100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#151515', endColorstr='#301b3f',GradientType=0 ); /* IE6-9 */
+  background-attachment: fixed;
+  font-family: 'RocknRoll One', sans-serif;
+  color: #B4A5A5
 }
 
 
@@ -45,14 +45,14 @@ Link Behavior
 ****/
 
 a:link, a:visited, a:active{
-    color: #D8B9C3;
+  color: #D8B9C3;
 }
 
 a:hover { 
-	color: #D3E0EA; 
-	text-decoration: none; 
-    cursor: pointer;
-    opacity: 0.5;
+color: #D3E0EA; 
+text-decoration: none; 
+  cursor: pointer;
+  opacity: 0.5;
 }
 
 
@@ -61,67 +61,96 @@ Header
 ****/
 
 nav{
-    height: 33px;
-    width: 98%;
-    border: 2px solid #D3E0EA ;
-    /* position: fixed; */
-    top: 5px;
-    left: 5px;
-    display: inline;
-    background-color: #363062;
-    border-radius: 20px;
-    z-index: 3;
-    font-size: 20px;
-    color: #f6f5f5;
-    margin-right: 10px;
-    float: right;
-    margin-top: 3px;
+  height: 33px;
+  width: 98%;
+  border: 2px solid #D3E0EA ;
+  /* position: fixed; */
+  top: 5px;
+  left: 5px;
+  display: inline;
+  background-color: #363062;
+  border-radius: 20px;
+  z-index: 3;
+  font-size: 20px;
+  color: #f6f5f5;
+  margin-right: 10px;
+  float: right;
+  margin-top: 3px;
 }
 
 nav a{
-    padding: 5px;
-    margin-left: 15%;
+  padding: 5px;
+  margin-left: 15%;
 }
 
-/****
-Image Break
-****/
-
 .break{
-  background-image: url(./images/pencils.png);
-  display: block;
-  width: 100%;
-  height: 400px;
-  border-radius: 5px;
+/* background-image: url(./images/pencils.png); */
+display: block;
+width: 100%;
+height: 400px;
+border-radius: 5px;
+background-color: #301B3F;
+}
+
+.tile{
+  background-image: url(./images/circut.png);
+  background-repeat: repeat;
 }
 
 .photo img{
-    position: absolute;
-    top: 200px;
-    left: 25px;
-    border-radius: 50%;
-    height:200px;
-    width: 200px;
-    border: 1px solid #363062;
+  position: absolute;
+  top: 200px;
+  right: 25px;
+  border-radius: 50%;
+  height:200px;
+  width: 200px;
+  border: 1px solid #363062;
+}
+
+.textspace {
+  padding: 10%;
+  width: 50%;
+}
+ 
+.writer h1{
+  color: #fff;
+  overflow: hidden;
+  border-right: .15em solid #3C415C;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .15em;
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0}
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% {border-color: #3C415C;}
 }
 
 .name{
-    position: absolute;
-    top: 55px;
-    right: 75px;
-    font-family: 'Lemon Tuesday';
-    color:#363062;
-    font-size: 55px;
+  position: absolute;
+  top: 55px;
+  right: 75px;
+  font-family: 'Lemon Tuesday';
+  color:#363062;
+  font-size: 55px;
 }
 
 .spacer{
-    height: 50px;
-    /* border: 2px solid white; */
+  height: 50px;
+  /* border: 2px solid white; */
 }
 
 .minispacer{
-    height: 25px;
-    /* border: 2px solid white; */
+  height: 25px;
+  /* border: 2px solid white; */
 }
 
 /****
@@ -130,55 +159,79 @@ Content
 
 .container{
 
-    position: relative;
-    display: flex;
-    /* flex-direction: column; */
-    flex-wrap: wrap;
-    /* border: 1px solid red; */
-    justify-content: center;
+  position: relative;
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  /* border: 1px solid red; */
+  justify-content: center;
 }
 
 
+.car{
+  width: 100%;
+  height: 150px;
+}
+
+.carimg{
+  background-image: url(./images/circles.jpg);
+  background-repeat: repeat-x ;
+  width: 100%;
+  height: 150px;
+  /* opacity: 0.6; */
+/*  position: absolute;
+  top: 400px;
+  z-index: -1; */
+}
+
+.darken{
+  color: #301b3f;
+  text-shadow:
+   -1px -1px 0 #D8B9C3,  
+    1px -1px 0 #D8B9C3,
+    -1px 1px 0 #D8B9C3,
+     1px 1px 0 #D8B9C3;
+}
 
 #examples p{
-    visibility: hidden;
-    font-size: 20px;
+  visibility: hidden;
+  font-size: 20px;
 
 }
 
 .alignment{
-    display: flex;
-    flex-direction: column;
-    margin-left: 5%;
-    margin-right: 5%;
-    /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  margin-right: 5%;
+  /* border: 2px solid red; */
 }
 
 
 .title{
-    font-size: 45px;
-    margin-left: 10px;
+  font-size: 45px;
+  margin-left: 10px;
 }
 
 .about{
-    width: 75%;
-    padding: 20px;
-    /* border:2px solid #363062; */
-    border-radius: 20px;
-    margin-left: 10%;
-    margin-bottom: 5px;
-    /* margin: 2px;  */
-    background-color: #827397;
-    color: #000;
+  width: 75%;
+  padding: 20px;
+  /* border:2px solid #363062; */
+  border-radius: 20px;
+  margin-left: 10%;
+  margin-bottom: 5px;
+  /* margin: 2px;  */
+  background-color: #827397;
+  color: #000;
 
 }
 
 .about p{
-    padding: 3px;
+  padding: 3px;
 }
 
 .about h2{
-    font-size: 45px;
+  font-size: 45px;
 }
 
 /****
@@ -186,56 +239,56 @@ Work Examples
 ****/
 
 .feature{
-    padding: 5px;
-    /* background-color: #4d4c7d; */
-    position: relative;
-    display: inline-block;
-    /* border: 2px solid #D8B9C3; */
-    border-radius: 20px;
-    margin: 3px;
-    margin-right: 10%; 
-    z-index: -1;
+  padding: 5px;
+  /* background-color: #4d4c7d; */
+  position: relative;
+  display: inline-block;
+  /* border: 2px solid #D8B9C3; */
+  border-radius: 20px;
+  margin: 3px;
+  margin-right: 10%; 
+  z-index: -1;
 }
 
 .feature img{
-    height:500px;
-    width: 90%;
-    border-radius: 20px;
-    /* background-size: cover; */
-    z-index: 1;
+  height:500px;
+  width: 90%;
+  border-radius: 20px;
+  /* background-size: cover; */
+  z-index: 1;
 }
 
 .project{
-    background-color: #D8B9C3;
-    position: relative;
-    width: 90%;
-    text-align: center;
-    padding: 15px;
-    color: #363062;
-    display: absolute;
-    margin-top: -60px;
-    z-index: 999;
-    border-radius: 5px;
+  background-color: #D8B9C3;
+  position: relative;
+  width: 90%;
+  text-align: center;
+  padding: 15px;
+  color: #363062;
+  display: absolute;
+  margin-top: -60px;
+  z-index: 999;
+  border-radius: 5px;
 }
 
 .work{
-    padding: 5px;
-    /* background-color: #4d4c7d; */
-    position: relative;
-    display: inline-block;
-    /* border: 2px solid #4d4c7d; */
-    border-radius: 20px;
-    margin: 2px;
-    height: 200px;
-    width: 200px;
-    border-radius: 20px;
+  padding: 5px;
+  /* background-color: #4d4c7d; */
+  position: relative;
+  display: inline-block;
+  /* border: 2px solid #4d4c7d; */
+  border-radius: 20px;
+  margin: 2px;
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
 }
 
 .work img{
-    height: 200px;
-    width: 90%;
-    border-radius: 20px;
-    /* background-size: cover; */
+  height: 200px;
+  width: 90%;
+  border-radius: 20px;
+  /* background-size: cover; */
 }
 
 /****
@@ -243,39 +296,110 @@ Footer
 ****/
 
 footer{
-    height: 33px;
-    text-align: center;
-    background-color: #363062;
-    opacity: 0.5;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    color: #D8B9C3;
+  height: 33px;
+  text-align: center;
+  background-color: #363062;
+  opacity: 0.5;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  color: #D8B9C3;
 }
 
 footer p{
-    font-size: 10px;
-    padding: 3px;
+  font-size: 10px;
+  padding: 3px;
 }
 
 /****
 Cards
 ****/
 .info{
-    margin: 10px;
-    background-color: #363062;
-    width: 18rem;
+  margin: 10px;
+  background-color: #363062;
+  width: 18rem;
 }
 
-/* .container {
-    margin: 10px;
-} */
-
 .item {
-    font-size: 12px;
-    /* color: red; */
-    background-color: #363062;
-    color: #D8B9C3;
+  font-size: 12px;
+  /* color: red; */
+  background-color: #363062;
+  color: #D8B9C3;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 350px;
+  border: 2px solid #151515;
+}
+
+.flip-card img {
+  width: 300px;
+  height: 350px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: #301b3f;
+  padding: 5px;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.cardspace{
+  padding: 10px;
+}
+
+.center{
+  text-align: center;
+  color: #827397;
+}
+
+/****
+Contact
+****/
+.contactcard{
+  background-color: #292327;
+  height: 75px;
+  width: 25%;
+  text-align: center;
+  border-radius: 15px 15px 15px 15px;
+}
+
+.contactcard h3{
+  color: #B4A5A5;
 }

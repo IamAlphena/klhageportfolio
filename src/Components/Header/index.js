@@ -1,15 +1,17 @@
 import React from 'react';
-import selfie from '../images/selfie.jpg'
+import selfie from '../../images/updatedselfie.jpg'
 
 
 function Header() {
     return (
-        <div className="break">
+     <div className="break tile">
             <div className="photo">
                 <img src={selfie} alt="self" />
             </div>
-            <div className="name">
-                Kim Hage
+            <div className="textspace">
+            <div className="writer">
+                <h1>Hello. </h1>
+            </div>
             </div>
         </div>
     )

@@ -1,17 +1,19 @@
 import React from 'react';
-import ExampleCard from '../components/Cards/examplecard';
-import projects from '../projects.json';
+import ExampleCard from '../../Example Card';
+import projects from '../../projects.json';
 
 class Examples extends React.Component {
-
+    
     state = {
         projects
     };
 
-  render () {
-    return(
+    render() {
+    return (
         <>
+           <h1 className="center">Previous Work</h1>
         <div className='container'>
+         
         {this.state.projects.map(info =>(
             <ExampleCard
             key={info.id}
