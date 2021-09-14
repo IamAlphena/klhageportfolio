@@ -1,5 +1,5 @@
 import React from 'react';
-import ExampleCard from '../../Example Card';
+import ExampleCard from '../ExampleCard';
 import projects from '../../projects.json';
 
 class Examples extends React.Component {
