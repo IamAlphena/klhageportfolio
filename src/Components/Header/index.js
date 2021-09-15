@@ -10,7 +10,7 @@ function Header() {
             </div>
             <div className="textspace">
             <div className="writer">
-                <h1>Hello. </h1>
+                <h1>Nice to meet you!</h1>
             </div>
             </div>
         </div>
