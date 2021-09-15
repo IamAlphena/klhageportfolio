@@ -2,7 +2,7 @@
     {
         "id": 1,
         "project": "Coding Quiz",
-        "image": "https://cdn.discordapp.com/attachments/839393191882653707/839393278867800134/quiz1.png",
+        "image": "https://cdn.discordapp.com/attachments/839393191882653707/887526694603325470/unknown.png",
         "alttext":"Coding Quiz" ,
         "details":"Take a quick coding quiz to test knowledge of HTML, CSS, and JavaScript and save your high scores" ,
         "deploy": "https://iamalphena.github.io/quizgame/index.html",
@@ -21,23 +21,23 @@
     },
     {
         "id": 3,
-        "project": "Weather Dashboard",
-        "image": "https://cdn.discordapp.com/attachments/839393191882653707/839399940849401866/unknown.png",
-        "alttext":"Weather Dashboard" ,
-        "details":"A dashboard to search for weather information by City and easily navigate to recent searches" ,
-        "deploy": "https://iamalphena.github.io/meteorologist/index.html",
-        "repo": "https://github.com/IamAlphena/meteorologist",
-        "tech": "HTML, CSS, JavaScript"
+        "project": "What to Watch",
+        "image": "https://cdn.discordapp.com/attachments/839393191882653707/887448088220950608/unknown.png",
+        "alttext":"What to Watch Site" ,
+        "details":"Website that allows for user to search for a particular movie title and find where it is avaialbe to buy, rent, or stream. Login & Save feature in progress." ,
+        "deploy": "https://whattowatchhana.herokuapp.com/",
+        "repo": "https://github.com/IamAlphena/potential-robot",
+        "tech": "React, Javascript, CSS, HTML, NoSQL Database"
     },
     {
         "id": 4,
-        "project": "White Blueberries",
-        "image": "https://cdn.discordapp.com/attachments/818902079228739636/820113487530295327/unknown.png",
-        "alttext":"White Blueberries Site" ,
-        "details":"Recipe Finding Website that searches suggestions based on a single ingredient - either drink or food. And can save favorite results to local storage" ,
-        "deploy": "https://iamalphena.github.io/whiteblueberries/index.html",
-        "repo": "https://github.com/IamAlphena/whiteblueberries",
-        "tech" : "HTML, CSS, JavaScript, jQuery"
+        "project": "Budget Tracker",
+        "image": "https://cdn.discordapp.com/attachments/839393191882653707/887528123879538718/unknown.png",
+        "alttext":"Budget Tracker" ,
+        "details":"Application that allows user to track their expenditures and incoming funds, even when offline" ,
+        "deploy": "https://budgettrackerhana.herokuapp.com/",
+        "repo": "https://github.com/IamAlphena/BudgetTracker",
+        "tech" : "Javascript, PWA, HTML, CSS, API "
     },
     {
         "id": 5,
