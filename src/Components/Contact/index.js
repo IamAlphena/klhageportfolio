@@ -23,7 +23,7 @@ function Contact() {
         </div>
         <div className="contactcard">
             <h3>Resume</h3>
-            <p><a href="https://docs.google.com/document/d/1V-JKj4VfPURT4fkRT9U5voA1sTbKiIUHxeIL2Ii9FMk/edit?usp=sharing"
+            <p><a href="https://docs.google.com/document/d/1ekmia4w_BSFe2k2e-pK3Qi4nBY0dk_AjZr1zTJotHAA/edit?usp=sharing"
                 target="_blank" 
                 rel="noreferrer"> Google Doc </a></p>
         </div>
